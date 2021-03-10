@@ -1,0 +1,465 @@
+/* Laptop Large Breakpoints */
+@media only screen and (max-width:1440px)
+{
+    /* largeur d'ecran par defaut */
+}
+
+@media only screen and (max-width:1300px)
+{
+    /* responsive for the nav */
+    .menus-div
+    {
+        width: 55%;
+    }
+
+    .menus-links .link
+    {
+        margin: 0px 10px
+    }
+
+    /* responsive for the who section */
+    .who-exp p
+    {
+        width: 45%;
+    }
+
+    /* responsive for the team section */
+    .team-body
+    {
+        height: 77vh;
+    }
+
+    .persona-quote p
+    {
+        font-size: 23px;
+    }
+}
+
+@media only screen and (max-width:1150px)
+{
+    /* responsive for the nav */
+    nav
+    {
+        flex-direction: column;
+    }
+
+    .logo-hamburger-div
+    {
+        width: 100%;
+        height: 10vh;
+    }
+
+    #hamburger-btn
+    {
+        display: flex;
+    }
+
+    .menus-div
+    {
+        display: none;
+    }
+
+    .nav-cta-div
+    {
+        display: none;
+    }
+
+    /* responsive for the header foot */
+    .header-foot-img .header-img-container:first-child, .header-foot-img .header-img-container:last-child
+    {
+        display: none;
+    }
+
+    .header-text
+    {
+        padding: 0px 40px 50px;
+    }
+
+    .header-deco-box span:nth-child(2)
+    {
+        width: 50px;
+    }
+
+    .header-text p span:nth-child(2)
+    {
+        height: 20px;
+    }
+
+    /* responsive for the who section */
+    .who-exp
+    {
+        margin-top: -150px;
+    }
+
+    .who-exp p
+    {
+        width: 40%;
+    }
+
+    /* responsive for the mav section */
+    .valor
+    {
+        width: 30vw;
+    }
+
+    /* responsive for the team section */
+    .team-body
+    {
+        height: 70vh;
+    }
+
+    .persona-details-div
+    {
+        padding: 50px 30px;
+    }
+
+    .persona-quote p
+    {
+        font-size: 21px;
+    }
+}
+
+/* Laptop Breakpoints */
+@media only screen and (max-width:1024px)
+{
+    /* responsive for the expertise section */
+    .expertise-deco-box
+    {
+        display: none;
+    }
+
+    /* responsive for the team section */
+    .team-body
+    {
+        height: 65vh;
+    }
+
+    .persona-details-div
+    {
+        padding: 20px 25px;
+    }
+
+    .persona-name-div h5
+    {
+        line-height: 110%;
+    }
+
+    /* responsive for the contact section */
+    .contact-columns
+    {
+        flex-direction: column-reverse;
+
+        margin-top: 50px;
+    }
+
+    .informations-column, .form-column
+    {
+        width: 100%;
+    }
+
+    .informations-column
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .information
+    {
+        padding-top: 15px;
+    }
+
+    .information p, .information a
+    {
+        margin-left: 10px;
+    }
+
+    .form-part input, .form-part textarea
+    {
+        width: 100%;
+    }
+
+    .information-type h6 .iconify
+    {
+        margin-right: 5px;
+    }
+
+    /* responsive for the footer */
+    footer
+    {
+        flex-direction: column;
+
+        padding: 50px 0px;
+
+        height: 300px;
+    }
+
+    .footer-logo-link, .copyrights, .social
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* Tablet Breakpoints */
+@media only screen and (max-width:768px)
+{
+    /* responsive for the banner */
+    .hero-banner h1
+    {
+        font-size: 145px;
+    }
+
+    .hero-banner h1 span
+    {
+        font-size: 70px;
+    }
+
+    /* responsive for the header foot */
+    .header-foot-img .header-img-container
+    {
+        transform: translateY(-120px) scale(0.8);
+    }
+
+    .header-text
+    {
+        padding: 0px 10px 50px;
+        margin-top: -100px;
+
+        width: 100%;
+
+        justify-content: center;
+    }
+
+    .header-deco-box
+    {
+        display: none;
+    }
+
+    /* responsive for the who section */
+    .who-exp p
+    {
+        width: 50%;
+    }
+
+    /* responsive for the mav section */
+    .ma-part
+    {
+        flex-direction: column;
+
+        margin-top: -15%;
+    }
+
+    .mission-part, .ambition-part
+    {
+        width: 100%;
+    }
+
+    .ambition-part
+    {
+        margin-top: 50px;
+    }
+
+    .valors
+    {
+        padding: 0px 0px;
+    }
+
+    .valor:nth-of-type(2)
+    {
+        margin: 0px 15px;
+    }
+
+    /* responsive for the expertise section */
+    .field-theme
+    {
+        background-position: 80% 45%;
+    }
+
+    .field-exp
+    {
+        flex-direction: column;
+    }
+
+    .field-title
+    {
+        margin-bottom: 50px;
+    }
+
+    .field-title, .field-detail
+    {
+        width: 100%;
+    }
+
+    /* responsive for the team section */
+    .team-body
+    {
+        height: auto;
+
+        grid-gap: 3.25vw;
+    }
+
+    .persona-div
+    {
+        flex-direction: column;
+
+        width: 60vw;
+    }
+
+    .persona-img-div
+    {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .persona-details-div
+    {
+        width: 100%;
+        height: 55vh;
+
+        padding: 40px 0px;
+
+        opacity: 0;
+
+        transition: 0.7s all;
+    }
+
+    .persona-div.active .persona-details-div
+    {
+        opacity: 1;
+    }
+
+    .persona-name-div h5
+    {
+        font-size: 31px;
+    }
+
+    .team-body button
+    {
+        right: 0%;
+    }
+
+    /* responsive for the contact section */
+    .contact-row
+    {
+        padding: 20px 30px;
+    }
+
+    .informations
+    {
+        display: flex;
+
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .informations-column
+    {
+        flex-direction: column;
+    }
+
+    .information
+    {
+        padding-top: 3px;
+        text-align: right;
+    }
+
+    .informations-column h6
+    {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width:501px)
+{
+    /* responsive for the banner */
+    .hero-banner h1
+    {
+        font-size: 115px;
+    }
+
+    .hero-banner h1 span
+    {
+        font-size: 60px;
+    }
+
+    /* responsive for the header foot */
+    .header-foot-img .header-img-container
+    {
+        transform: translateY(-120px) scale(0.7);
+    }
+
+    .header-text
+    {
+        margin-top: -150px;
+    }
+
+    /* responsive for the who section */
+    .who-galery
+    {
+        grid-gap: 7px;
+        grid-template-columns: 0.05fr 0.05fr 1fr 0.05fr 0.05fr;
+    }
+
+    .who-exp
+    {
+        padding: 0px 30px
+    }
+
+    .who-exp p
+    {
+        width: 100%;
+    }
+
+    /* responsive for the mav part */
+    .valors
+    {
+        flex-direction: column;
+
+        padding: 0px;
+    }
+
+    .valor
+    {
+        width: 100%;
+        height: 600px;
+    }
+    
+    .valor:nth-of-type(2)
+    {
+        margin: 30px 0px;
+    }
+
+    /* responsive for the team section */
+    .persona-div
+    {
+        width: 70vw;
+    }
+}
+
+/* Mobile Large Breakpoints */
+@media only screen and (max-width:426px)
+{
+    p
+    {
+        font-size: 16px;
+    }
+
+    /* responsive for the header foot */
+    .header-foot-img .header-img-container
+    {
+        transform: translateY(-120px) scale(0.5);
+    }
+}
+
+/* Mobile Medium Breakpoints */
+@media only screen and (max-width:375px)
+{
+
+}
+
+/* Mobile Small Breakpoints */
+@media only screen and (max-width:320px)
+{
+
+}

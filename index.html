@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="fr-HT">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Caraibes, Haiti, Universite, Esih, 3d, AR, VR, Blender, Unity, Ayiti, Haiti, Tainos, Visual Arts, virtual reality, realite virtuelle, augmented reality, realite augmentee">
+    <link rel="icon" href="images/favicon.jpg">
+    <meta property="og:url" content="index.html">
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tainos Visual Arts">
+    <meta name="twitter:description" content="TainosVisualArts">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Tainos Visual Arts</title>
+</head>
+<body>
+    <!-- header will contain the hero section, the mobile navigation and the welcome paragraph section -->
+    <header>
+        <section class="header-head">
+            <nav id="nav-bar">
+                <div class="logo-hamburger-div">
+                    <div class="logo-div">
+                        <img src="./images/light-logo.png" alt="Logo de Tainos Visual Arts en version light">
+                    </div>
+                    <button id="hamburger-btn">
+                        <span class="iconify" data-icon="eva:menu-outline" data-inline="false"></span>
+                    </button>
+                </div>
+                <div class="menus-div">
+                    <ul class="menus-links">
+                        <li class="link normal-link active">
+                            <a href="index.html" class="active">Accueil</a>
+                        </li>
+                        <li class="link link-to-collapse">
+                            <a>
+                                A Propos
+                                <span class="iconify" data-icon="bx:bx-chevron-down" data-inline="false"></span>
+                            </a>
+                            <ul class="menu-sub-links">
+                                <li class="collapsed-link">
+                                    <a href="">
+                                        Témoignages
+                                    </a>
+                                </li>
+                                <li class="collapsed-link">
+                                    <a href="">
+                                        L’équipe
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="link link-to-collapse">
+                            <a>
+                                Services
+                                <span class="iconify" data-icon="bx:bx-chevron-down" data-inline="false"></span>
+                            </a>
+                            <ul class="menu-sub-links">
+                                <li class="collapsed-link">
+                                    <a href="">
+                                        Conception 3D
+                                    </a>
+                                </li>
+                                <li class="collpased-link">
+                                    <a href="">
+                                        Développement XR/VR/AR
+                                    </a>
+                                </li>
+                                <li class="collpased-link">
+                                    <a href="">
+                                        Formation
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="link normal-link">
+                            <a href="./pages/portfolio.html">
+                                Portfolio
+                            </a>
+                        </li>
+                        <li class="link link-to-collapse">
+                            <a>
+                                Partenaires
+                                <span class="iconify" data-icon="bx:bx-chevron-down" data-inline="false"></span>
+                                <ul class="menu-sub-links">
+                                    <li class="collpased-link">
+                                        <a href="">
+                                            Projet MAAC
+                                        </a>
+                                    </li>
+                                    <li class="collapsed-link">
+                                        <a href="">
+                                            ICOM Haiti
+                                        </a>
+                                    </li>
+                                </ul>
+                            </a>
+                        </li>
+                        <li class="link norma-link">
+                            <a href="">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-cta-div">
+                    <a href="" class="primary-cta">
+                        Se Connecter
+                    </a>
+                    <a href="" class="tertiary-cta">
+                        S’inscrire
+                    </a>
+                </div>
+            </nav>
+            <div class="hero-banner">
+                <p>BIENVENUE A</p>
+                <h1>
+                    TAINOS <br>
+                    <span>VISUAL ARTS</span>
+                </h1>
+                <p>
+                    EXPLOREZ AU-DELÀ DES FRONTIÈRES DE L'IMAGINATION
+                </p>
+                <a href="#header-foot" class="scroll-link">
+                    <span class="iconify" data-icon="bi:chevron-bar-down" data-inline="false"></span>
+                    Découvrez NOUS
+                </a>
+            </div>
+        </section>
+        <section class="header-foot" id="header-foot">
+            <div class="header-foot-img">
+                <div class="header-img-container">
+                    <img src="./images/right-hand-pilot.png" alt="Manette gauche d'un casque à réalité virtuelle.">
+                </div>
+                <div class="header-img-container" id="headset-div">
+                    <img src="./images/virtual-headset.png" alt="Un casque à réalité virtuelle.">
+                </div>
+                <div class="header-img-container">
+                    <img src="./images/left-hand-pilot.png" alt="Manette droite d'un casque à réalité virtuelle.">
+                </div>
+            </div>
+            <div class="header-text">
+                <div class="header-deco-box">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <p>
+                    Le monde digital offre de nombreuses opportunités, particulièrement d'imaginer et de modifier notre réalité â travers la réalité virtuelle et la réalité augmentée. Nous voulons aider notre  public à comprendre ce nouvel univers digital mais aussi à lui donner la possibilité d'être un architecte de cet univers.
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </p> 
+            </div>
+        </section>
+    </header>
+
+    <section class="fixed-nav-mobile" id="nav-mobile">
+        <div class="mobile-nav-div">
+            <div class="close-btn-div">
+                <button class="close-btn" id="close-button">
+                    <span class="iconify" data-icon="bytesize:close" data-inline="false"></span>
+                </button>
+            </div>
+            <div class="mobile-nav">
+                <ul class="mobile-links-list">
+                    <li class="mobile-link active">
+                        <a href="index.html">
+                            Acceuil
+                        </a>
+                    </li>
+                    <li class="mobile-link mobile-link-to-collapse">
+                        <a>
+                            A Propos
+                            <span class="iconify" data-icon="bx:bx-chevron-down" data-inline="false"></span>
+                        </a>
+                        <ul class="mobile-collapsed-links-list">
+                            <li>
+                                <a href="">Témoignages</a>
+                            </li>
+                            <li>
+                                <a href="">L’équipe</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mobile-link mobile-link-to-collapse">
+                        <a>
+                            Services
+                            <span class="iconify" data-icon="bx:bx-chevron-down" data-inline="false"></span>
+                        </a>
+                        <ul class="mobile-collapsed-links-list">
+                            <li>
+                                <a href="">
+                                    Conception 3D
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Développement XR/VR/AR
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Formation
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mobile-link">
+                        <a href="">
+                            Portfolio
+                        </a>
+                    </li>
+                    <li class="mobile-link mobile-link-to-collapse">
+                        <a>
+                            Partenaires
+                            <span class="iconify" data-icon="bx:bx-chevron-down" data-inline="false"></span>
+                        </a>
+                        <ul class="mobile-collapsed-links-list">
+                            <li class="mobile-collapsed-link">
+                                <a href="">
+                                    Projet MAAC
+                                </a>
+                            </li>
+                            <li class="mobile-collapsed-link">
+                                <a href="">
+                                    ICOM Haiti
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mobile-link">
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+
+                <ul class="mobile-cta-list">
+                    <li class="cta-link primary-cta">
+                        <a href="">Se Connecter</a>
+                    </li>
+                    <li class="cta-link tertiary-cta">
+                        <a href="">S'Inscrire</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- main will contain who we are section, mav section, expertise section, team section, co section, contact section -->
+    <main>
+        <section class="who-section">
+            <div class="who-galery">
+                <div class="who-galery-photo">
+                    <img src="./images/people3.jpg" alt="">
+                </div>
+                <div class="who-galery-photo">
+                    <img src="./images/people4.jpg" alt="">
+                </div>
+                <div class="who-galery-photo active">
+                    <img src="./images/people2.jpg" alt="">
+                </div>
+                <div class="who-galery-photo">
+                    <img src="./images/people5.jpg" alt="">
+                </div>
+                <div class="who-galery-photo">
+                    <img src="./images/people1.jpg" alt="">
+                </div>
+            </div>
+            <div class="who-exp">
+                <h4>Qui sommes-nous ?</h4>
+                <p>
+                    <span class="tva">Tainos Visual Arts</span> est une firme de développement et de recherche en réalité virtuelle et réalité augmentée.
+                </p>
+                <a href="#">
+                    Voir Plus
+                    <span class="iconify" data-icon="akar-icons:arrow-right" data-inline="false"></span>
+                </a>
+            </div>
+        </section>
+
+        <section class="mav-section">
+            <div class="ma-part">
+                <div class="mission-part">
+                    <h5>Notre Mission</h5>
+                    <p>
+                        Nous nous engageons à aider nos clients à atteindre leurs objectifs en leur proposant des solutions sur-mesure et innovantes pour une experience immersive.
+                    </p>
+                </div>
+                <div class="ambition-part">
+                    <h5>Notre Ambition</h5>
+                    <p>
+                        Notre ambition est de nous faire connaître et de devenir des pierres d’angles de l'innovation et de la recherche scientifique dans le pays et dans la Caraïbe.
+                    </p>
+                </div>
+            </div>
+            <div class="valors-part">
+                <h5>Nos Valeurs</h5>
+                <div class="valors">
+                    <div class="valor">
+                        <span class="valor-name">Rechercher</span>
+                    </div>
+                    <div class="valor">
+                        <span class="valor-name">Entreprendre</span>
+                    </div>
+                    <div class="valor">
+                        <span class="valor-name">Innover</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="expertise-section">
+            <div class="expertise-top">
+                <h4>Notre Expertise</h4>
+            </div>
+            <div class="expertise-body">
+                <div class="field">
+                    <div class="field-theme" style="background-image: url('./images/field-theme1.jpg');"></div>
+                    <div class="field-exp">
+                        <div class="field-title">
+                            <div class="expertise-deco-box">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <h5>Conception Graphique 3D</h5>
+                        </div>
+                        <div class="field-detail">
+                            <p class="sub">
+                                Nous donnons forme à toutes vos idées et nous présentons vos produits d'une façon propre à vous.
+                            </p>
+                            <p>
+                                Que vous soyez du domaine de la publicité, de l'architecture, de la conception ou du prototypage, avec des modèles précis et photoréalistes, nous saurons vous satisfaire au delà de vos espérances.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="field-theme" style="background-image: url('./images/gbbg-min.jpg');"></div>
+                    <div class="field-exp">
+                        <div class="field-title">
+                            <div class="expertise-deco-box">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <h5>Développement XR/AR/VR</h5>
+                        </div>
+                        <div class="field-detail">
+                            <p class="sub">
+                                Vous êtes du domaine de la technologie ? Vous avez le regard tourné vers léducation et la formation ? Ou vous êtes plutôt loisirs et divertissements ?
+                            </p>
+                            <p>
+                                Laissez-nous vous aider à plonger vos clients, ou, vous-même, dans un nouvel univers, à expérimenter de nouvelles réalités.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="team-section">
+            <div class="team-top">
+                <h4>Notre équipe</h4>
+            </div>
+            <div class="team-body">
+                <div class="persona-div active">
+                    <div class="persona-img-div">
+                        <img src="./images/persona1.jpg" alt="Photo de Lilavois Max Valentin">
+                    </div>
+                    <div class="persona-details-div">
+                        <div class="persona-name-div">
+                            <h5>Lilavois Max Valentin</h5>
+                            <p>
+                                <span class="persona-title">Président</span>
+                                <span class="persona-role">3D Designer</span>
+                            </p>
+                        </div>
+                        <div class="persona-quote">
+                            <p>
+                                “ Life is not all about studying. If you can’t even conquer this little part of life, then, what else can you possibly do ? “
+                            </p>
+                        </div>
+                        <div class="persona-social-proof">
+                            <ul class="persona-social-links">
+                                <li class="persona-social-li">
+                                    <a href="mailto:maxvalentinlilavois@gmail.com" class="active">
+                                        <span class="iconify" data-icon="mdi:gmail" data-inline="false"></span>
+                                    </a>
+                                </li>
+                                <li class="persona-social-li">
+                                    <a href="http://">
+                                        <span class="iconify" data-icon="bx:bxl-facebook" data-inline="false"></span>
+                                    </a>
+                                </li>
+                                <li class="persona-social-li">
+                                    <a href="http://">
+                                        <span class="iconify" data-icon="bx:bxl-twitter" data-inline="false"></span>
+                                    </a>
+                                </li>
+                                <li class="persona-social-li">
+                                    <a href="http://">
+                                        <span class="iconify" data-icon="bx:bxl-instagram" data-inline="false"></span>
+                                    </a>
+                                </li>
+                                <li class="persona-social-li">
+                                    <a href="http://">
+                                        <span class="iconify" data-icon="bx:bxl-linkedin" data-inline="false"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="persona-div">
+                    <div class="persona-img-div">
+                        <img src="./images/persona2.jpg" alt="Photo de Karlex Dominique Boursiquot">
+                    </div>
+                    <div class="persona-details-div">
+                        <div class="persona-name-div">
+                            <h5>Karlex Dominique Boursiquot</h5>
+                            <p>
+                                <span class="persona-title">Secrétaire</span>
+                                <span class="persona-role">Développeur</span>
+                            </p>
+                        </div>
+                        <div class="persona-quote">
+                            <p>
+                                “ Life is not all about studying. If you can’t even conquer this little part of life, then, what else can you possibly do ? “
+                            </p>
+                        </div>
+                        <div class="persona-social-proof">
+                            <ul class="persona-social-links">
+                                <li class="persona-social-li">
+                                    <a href="mailto:dboursiquot876@gmail.com" class="active">
+                                        <span class="iconify" data-icon="mdi:gmail" data-inline="false"></span>
+                                    </a>
+                                </li>
+                                <li class="persona-social-li">
+                                    <a href="http://">
+                                        <span class="iconify" data-icon="bx:bxl-facebook" data-inline="false"></span>
+                                    </a>
+                                </li>
+                                <li class="persona-social-li">
+                                    <a href="http://">
+                                        <span class="iconify" data-icon="bx:bxl-twitter" data-inline="false"></span>
+                                    </a>
+                                </li>
+                                <li class="persona-social-li">
+                                    <a href="http://">
+                                        <span class="iconify" data-icon="bx:bxl-instagram" data-inline="false"></span>
+                                    </a>
+                                </li>
+                                <li class="persona-social-li">
+                                    <a href="http://">
+                                        <span class="iconify" data-icon="bx:bxl-linkedin" data-inline="false"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="persona-div">
+                    <div class="persona-img-div">
+                        <img src="./images/persona3.jpg" alt="Photo de Fabrice Ted Fabre">
+                    </div>
+                    <div class="persona-details-div">
+                        <div class="persona-name-div">
+                            <h5>Fabrice Ted Fabre</h5>
+                            <p>
+                                <span class="persona-title">Manager</span>
+                                <span class="persona-role">Développeur</span>
+                            </p>
+                        </div>
+                        <div class="persona-quote">
+                            <p>
+                                “ Life is not all about studying. If you can’t even conquer this little part of life, then, what else can you possibly do ? “
+                            </p>
+                        </div>
+                        <div class="persona-social-proof">
+                            <ul class="persona-social-links">
+                                <li class="persona-social-li">
+                                    <a href="mailto:fabre887@gmail.com" class="active">
+                                        <span class="iconify" data-icon="mdi:gmail" data-inline="false"></span>
+                                    </a>
+                                </li>
+                                <li class="persona-social-li">
+                                    <a href="http://">
+                                        <span class="iconify" data-icon="bx:bxl-facebook" data-inline="false"></span>
+                                    </a>
+                                </li>
+                                <li class="persona-social-li">
+                                    <a href="http://">
+                                        <span class="iconify" data-icon="bx:bxl-twitter" data-inline="false"></span>
+                                    </a>
+                                </li>
+                                <li class="persona-social-li">
+                                    <a href="http://">
+                                        <span class="iconify" data-icon="bx:bxl-instagram" data-inline="false"></span>
+                                    </a>
+                                </li>
+                                <li class="persona-social-li">
+                                    <a href="http://">
+                                        <span class="iconify" data-icon="bx:bxl-linkedin" data-inline="false"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="persona-div">
+                    <div class="persona-img-div">
+                        <img src="./images/persona4.jpg" alt="Photo de Sophie Laube Marcelus">
+                    </div>
+                    <div class="persona-details-div">
+                        <div class="persona-name-div">
+                            <h5>Sophie Laube Marcelus</h5>
+                            <p>
+                                <span class="persona-title"></span>
+                                <span class="persona-role">Designer</span>
+                            </p>
+                        </div>
+                        <div class="persona-quote">
+                            <p>
+                                “ Life is not all about studying. If you can’t even conquer this little part of life, then, what else can you possibly do ? “
+                            </p>
+                        </div>
+                        <div class="persona-social-proof">
+                            <ul class="persona-social-links">
+                                <li class="persona-social-li">
+                                    <a href="mailto:msophielaube16@gmail.com" class="active">
+                                        <span class="iconify" data-icon="mdi:gmail" data-inline="false"></span>
+                                    </a>
+                                </li>
+                                <li class="persona-social-li">
+                                    <a href="http://">
+                                        <span class="iconify" data-icon="bx:bxl-facebook" data-inline="false"></span>
+                                    </a>
+                                </li>
+                                <li class="persona-social-li">
+                                    <a href="http://">
+                                        <span class="iconify" data-icon="bx:bxl-twitter" data-inline="false"></span>
+                                    </a>
+                                </li>
+                                <li class="persona-social-li">
+                                    <a href="http://">
+                                        <span class="iconify" data-icon="bx:bxl-instagram" data-inline="false"></span>
+                                    </a>
+                                </li>
+                                <li class="persona-social-li">
+                                    <a href="http://">
+                                        <span class="iconify" data-icon="bx:bxl-linkedin" data-inline="false"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="persona-div">
+                    <div class="persona-img-div">
+                        <img src="./images/persona5.jpg" alt="Photo de Jephte Francois Mondesir">
+                    </div>
+                    <div class="persona-details-div">
+                        <div class="persona-name-div">
+                            <h5>Jephte Francois Mondesir</h5>
+                            <p>
+                                <span class="persona-title"></span>
+                                <span class="persona-role">Développeur</span>
+                            </p>
+                        </div>
+                        <div class="persona-quote">
+                            <p>
+                                “ Life is not all about studying. If you can’t even conquer this little part of life, then, what else can you possibly do ? “
+                            </p>
+                        </div>
+                        <div class="persona-social-proof">
+                            <ul class="persona-social-links">
+                                <li class="persona-social-li">
+                                    <a href="mailto:jephtefrancois9@gmail.com" class="active">
+                                        <span class="iconify" data-icon="mdi:gmail" data-inline="false"></span>
+                                    </a>
+                                </li>
+                                <li class="persona-social-li">
+                                    <a href="http://">
+                                        <span class="iconify" data-icon="bx:bxl-facebook" data-inline="false"></span>
+                                    </a>
+                                </li>
+                                <li class="persona-social-li">
+                                    <a href="http://">
+                                        <span class="iconify" data-icon="bx:bxl-twitter" data-inline="false"></span>
+                                    </a>
+                                </li>
+                                <li class="persona-social-li">
+                                    <a href="http://">
+                                        <span class="iconify" data-icon="bx:bxl-instagram" data-inline="false"></span>
+                                    </a>
+                                </li>
+                                <li class="persona-social-li">
+                                    <a href="http://">
+                                        <span class="iconify" data-icon="bx:bxl-linkedin" data-inline="false"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="persona-div">
+                    <div class="persona-img-div">
+                        <img src="./images/persona6.jpg" alt="Photo de Carl Roodney Clerville">
+                    </div>
+                    <div class="persona-details-div">
+                        <div class="persona-name-div">
+                            <h5>Carl Roodney Clerville</h5>
+                            <p>
+                                <span class="persona-title"></span>
+                                <span class="persona-role">Designer</span>
+                            </p>
+                        </div>
+                        <div class="persona-quote">
+                            <p>
+                                “ Life is not all about studying. If you can’t even conquer this little part of life, then, what else can you possibly do ? “
+                            </p>
+                        </div>
+                        <div class="persona-social-proof">
+                            <ul class="persona-social-links">
+                                <li class="persona-social-li">
+                                    <a href="mailto:carlitoclerville34@gmail.com" class="active">
+                                        <span class="iconify" data-icon="mdi:gmail" data-inline="false"></span>
+                                    </a>
+                                </li>
+                                <li class="persona-social-li">
+                                    <a href="http://">
+                                        <span class="iconify" data-icon="bx:bxl-facebook" data-inline="false"></span>
+                                    </a>
+                                </li>
+                                <li class="persona-social-li">
+                                    <a href="http://">
+                                        <span class="iconify" data-icon="bx:bxl-twitter" data-inline="false"></span>
+                                    </a>
+                                </li>
+                                <li class="persona-social-li">
+                                    <a href="http://">
+                                        <span class="iconify" data-icon="bx:bxl-instagram" data-inline="false"></span>
+                                    </a>
+                                </li>
+                                <li class="persona-social-li">
+                                    <a href="http://">
+                                        <span class="iconify" data-icon="bx:bxl-linkedin" data-inline="false"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="controller-btn left-btn">
+                    <span class="iconify" data-icon="bi:arrow-left" data-inline="false"></span>
+                </button>
+                <button class="controller-btn right-btn">
+                    <span class="iconify" data-icon="bi:arrow-right" data-inline="false"></span>
+                </button>
+            </div>
+        </section>
+
+        <section class="collaborators-section">
+            <h4>Nos Partenaires</h4>
+            <div class="collaborators">
+                <div class="collaborators-row">
+                    <a href="" class="collaborator-link">
+                        <img src="./images/esih-logo.png" alt="Logo du collaborateur ESIH" class="collaborator-img">
+                    </a>
+                    <a href="" class="collaborator-link">
+                        <img src="./images/maac-logo.png" alt="Logo du collaborateur Matrimoine Afro-Américano Caribéen" class="collaborator-img">
+                    </a>
+                    <a href="" class="collaborator-link">
+                        <img src="./images/freaky-snack-bar-logo.png" alt="Logo du collaborateur Freaky Snackbar" class="collaborator-img">
+                    </a>
+                </div>
+                <div class="collaborators-row">
+                    <a href="" class="collaborator-link">
+                        <img src="./images/icom-logo.jpg" alt="Logo du collaborateur ICOM" class="collaborator-img">
+                    </a>
+                    <a href="" class="collaborator-link">
+                        <img src="./images/haiti-virtual-tour-logo.jpg" alt="Logo du collaborateur Haiti Virtual Tour" class="collaborator-img">
+                    </a>
+                    <a href="" class="collaborator-link">
+                        <img src="./images/dk-logo.png" alt="Logo du collaborateur DK" class="collaborator-img">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="contact-row">
+                <h4>Contactez-Nous</h4>
+                <div class="contact-columns">
+                    <div class="column form-column">
+                        <form action="" id="contact-form">
+                            <div class="form-part form-name-part">
+                                <label for="name-input">Votre Nom :</label>
+                                <input type="text" name="name-input" id="name-input" placeholder="Veuillez rentrer votre nom ..." required>
+                            </div>
+                            <div class="form-part form-email-part">
+                                <label for="email-input">Votre Email :</label>
+                                <input type="email" name="email-input" id="email-input" placeholder="Veuillez rentrer une adresse mail valide ..." required>
+                            </div>
+                            <div class="form-part form-message-part">
+                                <label for="text-area">Votre Message :</label>
+                                <textarea name="text-area" id="text-area" cols="30" rows="10" placeholder="Ecrivez-nous votre message ..." required></textarea>
+                            </div>
+                            <div class="form-part form-submit-part">
+                                <button type="submit">Envoyer</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="column informations-column">
+                        <div class="informations">
+                            <div class="information-type">
+                                <h6>
+                                    <span class="iconify" data-icon="clarity:alarm-clock-solid" data-inline="false"></span>
+                                    Ouvrable :
+                                </h6>
+                            </div>
+                            <div class="information">
+                                <p>Lundi - Vendredi: 8h AM - 4h PM</p>
+                                <p>Samedi: 8h AM - 12:30 PM</p>
+                            </div>
+                        </div>
+                        <div class="informations">
+                            <div class="information-type">
+                                <h6>
+                                    <span class="iconify" data-icon="fluent:call-24-filled" data-inline="false"></span>
+                                    Appelez-nous :
+                                </h6>
+                            </div>
+                            <div class="information">
+                                <a href="tel:+50936288863"><span>(509)</span> 36288863 <span class="iconify" data-icon="bi:arrow-up-right-circle" data-inline="false"></span></a>
+                                <a href="tel:+50946423396"><span>(509)</span> 46423396 <span class="iconify" data-icon="bi:arrow-up-right-circle" data-inline="false"></span></a>
+                            </div>
+                        </div>
+                        <div class="informations">
+                            <div class="information-type">
+                                <h6>
+                                    <span class="iconify" data-icon="ph:map-pin-line-fill" data-inline="false"></span>
+                                    Visitez-nous :
+                                </h6>
+                            </div>
+                            <div class="information">
+                                <p>#29, 2e ruelle Nazon,</p>
+                                <p>Port-au-Prince, Haiti</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer will contain logo link, copyrights, social links -->
+    <footer>
+        <div class="footer-logo-link">
+            <a href="#">
+                <img src="./images/light-logo.png" alt="Logo de Tainos Visual Arts en version light">
+            </a>
+        </div>
+        <div class="copyrights">
+            <p>
+                2021 - 
+                <b>Tainos Visual Arts</b>
+                - Tous droits reserves
+            </p>
+        </div>
+        <div class="social">
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="iconify" data-icon="bx:bxl-facebook" data-inline="false"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="iconify" data-icon="bx:bxl-twitter" data-inline="false"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="iconify" data-icon="bx:bxl-instagram" data-inline="false"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="iconify" data-icon="bx:bxl-linkedin" data-inline="false"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="iconify" data-icon="simple-icons:slack" data-inline="false"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    
+    <!-- importing script files -->
+    <script src="main.js"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</body>
+<!-- Historique de révision -->
+<!-- 
+    Commencé le 1er Mars 2021
+        - 1er Mars : Mwen komanse avek <footer> lan
+        - 2 Mars : Mwen fini <footer> lan. Mwen komanse ak .contact-section an
+        - 3 Mars : Mwen fini ak .contact-section an. Mwen fe .collaborators-section an. Mwen komanse .expertise-section an
+        - 4 Mars : Mwen fini expertise section an. Mwen komanse .mav-section an
+        - 5 Mars : Mwen fini .mav-section an. Mwen fe .who-section an. mwen fe .header yo. Mwen komanse <nav> lan
+        - 6 Mars : Mwen kontinye <nav> lan.
+        - 7 Mars : Mwen kontinye <nav> lan. A refaire
+        - 8 Mars : Mwen komanse .team-section an. Mwen rekomanse ak <nav> lan
+        - 9 Mars : Mwen fini .team-section an. Mwen fe <nav> lan. Mwen komanse responsive yo
+    Terminé le ... 
+ -->
+</html>
