@@ -391,7 +391,12 @@
 
     .header-text
     {
-        margin-top: -150px;
+        margin-top: 100px;
+    }
+
+    #headset-div
+    {
+        display: none;
     }
 
     /* responsive for the who section */
@@ -440,26 +445,245 @@
 /* Mobile Large Breakpoints */
 @media only screen and (max-width:426px)
 {
-    p
+    p, a
     {
-        font-size: 16px;
+        font-size: 14px;
+    }
+
+    h4
+    {
+        font-size: 40px;
+    }
+
+    /* responsive for the banner */
+    .hero-banner h1
+    {
+        font-size: 95px;
+    }
+
+    .hero-banner h1 span
+    {
+        font-size: 50px;
     }
 
     /* responsive for the header foot */
+    .header-text
+    {
+        padding: 0px 10px;
+    }
+
+    .header-text p
+    {
+        font-size: 18px;
+
+        width: 80%;
+    }
+
+    .header-text p span
+    {
+        display: none;
+    }
+
     .header-foot-img .header-img-container
     {
         transform: translateY(-120px) scale(0.5);
     }
+
+    /* responsive for the who-section */
+    .who-exp p
+    {
+        font-size: 18px;
+    }
+
+    /* responsive for the mav section */
+    .ma-part p
+    {
+        font-size: 18px;
+    }
+
+    /* responsive for the team section */
+    .persona-quote
+    {
+        margin: 15px 0px;
+    }
+
+    .persona-quote p
+    {
+        font-size: 18px;
+    }
 }
 
 /* Mobile Medium Breakpoints */
-@media only screen and (max-width:375px)
+@media only screen and (max-width:376px)
 {
+    a
+    {
+        font-size: 13px;
+    }
 
+    h4
+    {
+        font-size: 33px;
+    }
+
+    /* responsive for the banner */
+    .hero-banner h1
+    {
+        font-size: 86px;
+    }
+
+    .hero-banner h1 span
+    {
+        font-size: 41px;
+    }
+
+    /* responsive for the mobile nav bar */
+    .mobile-nav-div
+    {
+        width: 83%;
+    }
+
+    /* responsive for the who-section */
+    .who-exp p
+    {
+        font-size: 16px;
+    }
+
+    /* responsive for the mav section */
+    .ma-part p
+    {
+        font-size: 16px;
+    }
+
+    /* responsive for the expertise section */
+    .field-title h5
+    {
+        font-size: 33px;
+    }
+
+    /* responsive for the team section */
+    .persona-div
+    {
+        width: 74vw;
+    }
+
+    .persona-quote
+    {
+        margin: 0px;
+    }
+
+    .persona-quote p
+    {
+        font-size: 16px;
+    }
+
+    /* responsive for the footer */
+    .copyrights p
+    {
+        font-size: 14px;
+
+        width: 70%;
+
+        text-align: center;
+
+        line-height: 150%;
+    }
 }
 
 /* Mobile Small Breakpoints */
-@media only screen and (max-width:320px)
+@media only screen and (max-width:321px)
 {
+    h4
+    {
+        font-size: 30px;
+    }
 
+    /* responsive for the nav */
+    nav
+    {
+        padding: 0px 4vw;
+    }
+
+    /* responsive for the banner */
+    .hero-banner h1
+    {
+        font-size: 80px;
+    }
+
+    .hero-banner h1 span
+    {
+        font-size: 37px;
+    }
+
+    .hero-banner p
+    {
+        text-align: center;
+    }
+
+    .hero-banner a
+    {
+        padding: 18px;
+
+        width: 60%;
+    }
+
+    /* responsive for the mobile nav bar */
+    .mobile-nav-div
+    {
+        width: 95%;
+    }
+
+    .header-text
+    {
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    .header-text p
+    {
+        width: 80%;
+
+        font-size: 16px;
+    }
+
+    /* responsive for the mav part */
+    .mav-section
+    {
+        padding: 0px 4vw;
+
+        margin-top: 0px;
+    }
+
+    /* responsive for the expertise section */
+    .field-exp
+    {
+        padding: 0px 4vw;
+    }
+
+    /* responsive for the team section */
+    .persona-name-div
+    {
+        width: 80%;
+    }
+
+    .persona-quote
+    {
+        margin: 15px 0px;
+    }
+
+    /* responsive for the contact section */
+    .contact-row
+    {
+        padding: 40px 5vw;
+    }
+
+    .information-type h6
+    {
+        font-size: 20px;
+    }
+
+    .information-type h6 .iconify
+    {
+        display: none;
+    }
 }
