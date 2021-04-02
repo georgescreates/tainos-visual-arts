@@ -1,689 +1,586 @@
 /* Laptop Large Breakpoints */
-@media only screen and (max-width:1440px)
-{
-    /* largeur d'ecran par defaut */
+@media only screen and (max-width: 1440px) {
+  /* largeur d'ecran par defaut */
 }
 
-@media only screen and (max-width:1300px)
+@media only screen and (max-width: 1300px)
 {
-    /* responsive for the nav */
-    .menus-div
-    {
-        width: 55%;
-    }
+  /* responsive for the nav */
+  .menus-div 
+  {
+      width: 55%;
+  }
 
-    .menus-links .link
-    {
-        margin: 0px 10px
-    }
+  .menus-links .link 
+  {
+      margin: 0px 10px;
+  }
 
-    /* responsive for the who section */
-    .who-exp p
-    {
-        width: 45%;
-    }
+  /* responsive for the who section */
+  .who-exp p 
+  {
+      width: 45%;
+  }
 
-    /* responsive for the team section */
-    .team-body
-    {
-        height: 77vh;
-    }
+  /* responsive for the team section */
+  .team-body 
+  {
+      height: 77vh;
+  }
 
-    .persona-quote p
-    {
-        font-size: 23px;
-    }
+  .persona-quote p 
+  {
+      font-size: 23px;
+  }
 }
 
-@media only screen and (max-width:1150px)
+@media only screen and (max-width: 1220px)
 {
-    /* responsive for the nav */
-    nav
-    {
-        flex-direction: column;
-    }
+  /* responsive for the nav */
+  nav {
+    flex-direction: column;
+  }
 
-    .logo-hamburger-div
-    {
-        width: 100%;
-        height: 10vh;
-    }
+  .logo-hamburger-div {
+    width: 100%;
+    height: 10vh;
+  }
 
-    #hamburger-btn
-    {
-        display: flex;
-    }
+  #hamburger-btn {
+    display: flex;
+  }
 
-    .menus-div
-    {
-        display: none;
-    }
+  .menus-div {
+    display: none;
+  }
 
-    .nav-cta-div
-    {
-        display: none;
-    }
+  .nav-cta-div {
+    display: none;
+  }
+}
 
-    /* responsive for the header foot */
-    .header-foot-img .header-img-container:first-child, .header-foot-img .header-img-container:last-child
-    {
-        display: none;
-    }
+@media only screen and (max-width: 1150px) {
+  /* responsive for the header foot */
+  .header-foot-img .header-img-container:first-child,
+  .header-foot-img .header-img-container:last-child {
+    display: none;
+  }
 
-    .header-text
-    {
-        padding: 0px 40px 50px;
-    }
+  .header-text {
+    padding: 0px 40px 50px;
+  }
 
-    .header-deco-box span:nth-child(2)
-    {
-        width: 50px;
-    }
+  .header-deco-box span:nth-child(2) {
+    width: 50px;
+  }
 
-    .header-text p span:nth-child(2)
-    {
-        height: 20px;
-    }
+  .header-text p span:nth-child(2) {
+    height: 20px;
+  }
 
-    /* responsive for the who section */
-    .who-exp
-    {
-        margin-top: -150px;
-    }
+  /* responsive for the who section */
+  .who-exp {
+    margin-top: -150px;
+  }
 
-    .who-exp p
-    {
-        width: 40%;
-    }
+  .who-exp p {
+    width: 40%;
+  }
 
-    /* responsive for the mav section */
-    .valor
-    {
-        width: 30vw;
-    }
+  /* responsive for the mav section */
+  .valor {
+    width: 30vw;
+  }
 
-    /* responsive for the team section */
-    .team-body
-    {
-        height: 70vh;
-    }
+  /* responsive for the team section */
+  .team-body {
+    height: 70vh;
+  }
 
-    .persona-details-div
-    {
-        padding: 50px 30px;
-    }
+  .persona-details-div {
+    padding: 50px 30px;
+  }
 
-    .persona-quote p
-    {
-        font-size: 21px;
-    }
+  .persona-quote p {
+    font-size: 21px;
+  }
 }
 
 /* Laptop Breakpoints */
-@media only screen and (max-width:1024px)
-{
-    /* responsive for the expertise section */
-    .expertise-deco-box
-    {
-        display: none;
-    }
+@media only screen and (max-width: 1024px) {
+  /* responsive for the expertise section */
+  .expertise-deco-box {
+    display: none;
+  }
 
-    /* responsive for the team section */
-    .team-body
-    {
-        height: 65vh;
-    }
+  /* responsive for the team section */
+  .team-body {
+    height: 65vh;
+  }
 
-    .persona-details-div
-    {
-        padding: 20px 25px;
-    }
+  .persona-details-div {
+    padding: 20px 25px;
+  }
 
-    .persona-name-div h5
-    {
-        line-height: 110%;
-    }
+  .persona-name-div h5 {
+    line-height: 110%;
+  }
 
-    /* responsive for the contact section */
-    .contact-columns
-    {
-        flex-direction: column-reverse;
+  /* responsive for the contact section */
+  .contact-columns {
+    flex-direction: column-reverse;
 
-        margin-top: 50px;
-    }
+    margin-top: 50px;
+  }
 
-    .informations-column, .form-column
-    {
-        width: 100%;
-    }
+  .informations-column,
+  .form-column {
+    width: 100%;
+  }
 
-    .informations-column
-    {
-        display: flex;
-        justify-content: space-between;
-    }
+  .informations-column {
+    display: flex;
+    justify-content: space-between;
+  }
 
-    .information
-    {
-        padding-top: 15px;
-    }
+  .information {
+    padding-top: 15px;
+  }
 
-    .information p, .information a
-    {
-        margin-left: 10px;
-    }
+  .information p,
+  .information a {
+    margin-left: 10px;
+  }
 
-    .form-part input, .form-part textarea
-    {
-        width: 100%;
-    }
+  .form-part input,
+  .form-part textarea {
+    width: 100%;
+  }
 
-    .information-type h6 .iconify
-    {
-        margin-right: 5px;
-    }
+  .information-type h6 .iconify {
+    margin-right: 5px;
+  }
 
-    /* responsive for the footer */
-    footer
-    {
-        flex-direction: column;
+  /* responsive for the footer */
+  footer {
+    flex-direction: column;
 
-        padding: 50px 0px;
+    padding: 50px 0px;
 
-        height: 300px;
-    }
+    height: 300px;
+  }
 
-    .footer-logo-link, .copyrights, .social
-    {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+  .footer-logo-link,
+  .copyrights,
+  .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 /* Tablet Breakpoints */
-@media only screen and (max-width:768px)
-{
-    /* responsive for the banner */
-    .hero-banner h1
-    {
-        font-size: 145px;
-    }
+@media only screen and (max-width: 768px) {
+  /* responsive for the banner */
+  .hero-banner h1 {
+    font-size: 145px;
+  }
 
-    .hero-banner h1 span
-    {
-        font-size: 70px;
-    }
+  .hero-banner h1 span {
+    font-size: 70px;
+  }
 
-    /* responsive for the header foot */
-    .header-foot-img .header-img-container
-    {
-        transform: translateY(-120px) scale(0.8);
-    }
+  /* responsive for the header foot */
+  .header-foot-img .header-img-container {
+    transform: translateY(-120px) scale(0.8);
+  }
 
-    .header-text
-    {
-        padding: 0px 10px 50px;
-        margin-top: -100px;
+  .header-text {
+    padding: 0px 10px 50px;
+    margin-top: -100px;
 
-        width: 100%;
+    width: 100%;
 
-        justify-content: center;
-    }
+    justify-content: center;
+  }
 
-    .header-deco-box
-    {
-        display: none;
-    }
+  .header-deco-box {
+    display: none;
+  }
 
-    /* responsive for the who section */
-    .who-exp p
-    {
-        width: 50%;
-    }
+  /* responsive for the who section */
+  .who-exp p {
+    width: 50%;
+  }
 
-    /* responsive for the mav section */
-    .ma-part
-    {
-        flex-direction: column;
+  /* responsive for the mav section */
+  .ma-part {
+    flex-direction: column;
 
-        margin-top: -15%;
-    }
+    margin-top: -15%;
+  }
 
-    .mission-part, .ambition-part
-    {
-        width: 100%;
-    }
+  .mission-part,
+  .ambition-part {
+    width: 100%;
+  }
 
-    .ambition-part
-    {
-        margin-top: 50px;
-    }
+  .ambition-part {
+    margin-top: 50px;
+  }
 
-    .valors
-    {
-        padding: 0px 0px;
-    }
+  .valors {
+    padding: 0px 0px;
+  }
 
-    .valor:nth-of-type(2)
-    {
-        margin: 0px 15px;
-    }
+  .valor:nth-of-type(2) {
+    margin: 0px 15px;
+  }
 
-    /* responsive for the expertise section */
-    .field-theme
-    {
-        background-position: 80% 45%;
-    }
+  /* responsive for the expertise section */
+  .field-theme {
+    background-position: 80% 45%;
+  }
 
-    .field-exp
-    {
-        flex-direction: column;
-    }
+  .field-exp {
+    flex-direction: column;
+  }
 
-    .field-title
-    {
-        margin-bottom: 50px;
-    }
+  .field-title {
+    margin-bottom: 50px;
+  }
 
-    .field-title, .field-detail
-    {
-        width: 100%;
-    }
+  .field-title,
+  .field-detail {
+    width: 100%;
+  }
 
-    /* responsive for the team section */
-    .team-body
-    {
-        height: auto;
+  /* responsive for the team section */
+  .team-body {
+    height: auto;
 
-        grid-gap: 3.25vw;
-    }
+    grid-gap: 3.25vw;
+  }
 
-    .persona-div
-    {
-        flex-direction: column;
+  .persona-div {
+    flex-direction: column;
 
-        width: 60vw;
-    }
+    width: 60vw;
+  }
 
-    .persona-img-div
-    {
-        width: 100%;
-        height: 50vh;
-    }
+  .persona-img-div {
+    width: 100%;
+    height: 50vh;
+  }
 
-    .persona-details-div
-    {
-        width: 100%;
-        height: 55vh;
+  .persona-details-div {
+    width: 100%;
+    height: 55vh;
 
-        padding: 40px 0px;
+    padding: 40px 0px;
 
-        opacity: 0;
+    opacity: 0;
 
-        transition: 0.7s all;
-    }
+    transition: 0.7s all;
+  }
 
-    .persona-div.active .persona-details-div
-    {
-        opacity: 1;
-    }
+  .persona-div.active .persona-details-div {
+    opacity: 1;
+  }
 
-    .persona-name-div h5
-    {
-        font-size: 31px;
-    }
+  .persona-name-div h5 {
+    font-size: 31px;
+  }
 
-    .team-body button
-    {
-        right: 0%;
-    }
+  .team-body button {
+    right: 0%;
+  }
 
-    /* responsive for the contact section */
-    .contact-row
-    {
-        padding: 20px 30px;
-    }
+  /* responsive for the contact section */
+  .contact-row {
+    padding: 20px 30px;
+  }
 
-    .informations
-    {
-        display: flex;
+  .informations {
+    display: flex;
 
-        width: 100%;
-        justify-content: space-between;
-    }
+    width: 100%;
+    justify-content: space-between;
+  }
 
-    .informations-column
-    {
-        flex-direction: column;
-    }
+  .informations-column {
+    flex-direction: column;
+  }
 
-    .information
-    {
-        padding-top: 3px;
-        text-align: right;
-    }
+  .information {
+    padding-top: 3px;
+    text-align: right;
+  }
 
-    .informations-column h6
-    {
-        font-size: 24px;
-    }
+  .informations-column h6 {
+    font-size: 24px;
+  }
 }
 
-@media only screen and (max-width:501px)
-{
-    /* responsive for the banner */
-    .hero-banner h1
-    {
-        font-size: 115px;
-    }
+@media only screen and (max-width: 501px) {
+  /* responsive for the banner */
+  .hero-banner h1 {
+    font-size: 115px;
+  }
 
-    .hero-banner h1 span
-    {
-        font-size: 60px;
-    }
+  .hero-banner h1 span {
+    font-size: 60px;
+  }
 
-    /* responsive for the header foot */
-    .header-foot-img .header-img-container
-    {
-        transform: translateY(-120px) scale(0.7);
-    }
+  /* responsive for the header foot */
+  .header-foot-img .header-img-container {
+    transform: translateY(-120px) scale(0.7);
+  }
 
-    .header-text
-    {
-        margin-top: 100px;
-    }
+  .header-text {
+    margin-top: 100px;
+  }
 
-    #headset-div
-    {
-        display: none;
-    }
+  #headset-div {
+    display: none;
+  }
 
-    /* responsive for the who section */
-    .who-galery
-    {
-        grid-gap: 7px;
-        grid-template-columns: 0.05fr 0.05fr 1fr 0.05fr 0.05fr;
-    }
+  /* responsive for the who section */
+  .who-galery {
+    grid-gap: 7px;
+    grid-template-columns: 0.05fr 0.05fr 1fr 0.05fr 0.05fr;
+  }
 
-    .who-exp
-    {
-        padding: 0px 30px
-    }
+  .who-exp {
+    padding: 0px 30px;
+  }
 
-    .who-exp p
-    {
-        width: 100%;
-    }
+  .who-exp p {
+    width: 100%;
+  }
 
-    /* responsive for the mav part */
-    .valors
-    {
-        flex-direction: column;
+  /* responsive for the mav part */
+  .valors {
+    flex-direction: column;
 
-        padding: 0px;
-    }
+    padding: 0px;
+  }
 
-    .valor
-    {
-        width: 100%;
-        height: 600px;
-    }
-    
-    .valor:nth-of-type(2)
-    {
-        margin: 30px 0px;
-    }
+  .valor {
+    width: 100%;
+    height: 600px;
+  }
 
-    /* responsive for the team section */
-    .persona-div
-    {
-        width: 70vw;
-    }
+  .valor:nth-of-type(2) {
+    margin: 30px 0px;
+  }
+
+  /* responsive for the team section */
+  .persona-div {
+    width: 70vw;
+  }
 }
 
 /* Mobile Large Breakpoints */
-@media only screen and (max-width:426px)
-{
-    p, a
-    {
-        font-size: 14px;
-    }
+@media only screen and (max-width: 426px) {
+  p,
+  a {
+    font-size: 14px;
+  }
 
-    h4
-    {
-        font-size: 40px;
-    }
+  h4 {
+    font-size: 40px;
+  }
 
-    /* responsive for the banner */
-    .hero-banner h1
-    {
-        font-size: 95px;
-    }
+  /* responsive for the banner */
+  .hero-banner h1 {
+    font-size: 95px;
+  }
 
-    .hero-banner h1 span
-    {
-        font-size: 50px;
-    }
+  .hero-banner h1 span {
+    font-size: 50px;
+  }
 
-    /* responsive for the header foot */
-    .header-text
-    {
-        padding: 0px 10px;
-    }
+  /* responsive for the header foot */
+  .header-text {
+    padding: 0px 10px;
+  }
 
-    .header-text p
-    {
-        font-size: 18px;
+  .header-text p {
+    font-size: 18px;
 
-        width: 80%;
-    }
+    width: 80%;
+  }
 
-    .header-text p span
-    {
-        display: none;
-    }
+  .header-text p span {
+    display: none;
+  }
 
-    .header-foot-img .header-img-container
-    {
-        transform: translateY(-120px) scale(0.5);
-    }
+  .header-foot-img .header-img-container {
+    transform: translateY(-120px) scale(0.5);
+  }
 
-    /* responsive for the who-section */
-    .who-exp p
-    {
-        font-size: 18px;
-    }
+  /* responsive for the who-section */
+  .who-exp p {
+    font-size: 18px;
+  }
 
-    /* responsive for the mav section */
-    .ma-part p
-    {
-        font-size: 18px;
-    }
+  /* responsive for the mav section */
+  .ma-part p {
+    font-size: 18px;
+  }
 
-    /* responsive for the team section */
-    .persona-quote
-    {
-        margin: 15px 0px;
-    }
+  /* responsive for the team section */
+  .persona-quote {
+    margin: 15px 0px;
+  }
 
-    .persona-quote p
-    {
-        font-size: 18px;
-    }
+  .persona-quote p {
+    font-size: 18px;
+  }
 }
 
 /* Mobile Medium Breakpoints */
-@media only screen and (max-width:376px)
-{
-    a
-    {
-        font-size: 13px;
-    }
+@media only screen and (max-width: 376px) {
+  a {
+    font-size: 13px;
+  }
 
-    h4
-    {
-        font-size: 33px;
-    }
+  h4 {
+    font-size: 33px;
+  }
 
-    /* responsive for the banner */
-    .hero-banner h1
-    {
-        font-size: 86px;
-    }
+  /* responsive for the banner */
+  .hero-banner h1 {
+    font-size: 86px;
+  }
 
-    .hero-banner h1 span
-    {
-        font-size: 41px;
-    }
+  .hero-banner h1 span {
+    font-size: 41px;
+  }
 
-    /* responsive for the mobile nav bar */
-    .mobile-nav-div
-    {
-        width: 83%;
-    }
+  /* responsive for the mobile nav bar */
+  .mobile-nav-div {
+    width: 83%;
+  }
 
-    /* responsive for the who-section */
-    .who-exp p
-    {
-        font-size: 16px;
-    }
+  /* responsive for the who-section */
+  .who-exp p {
+    font-size: 16px;
+  }
 
-    /* responsive for the mav section */
-    .ma-part p
-    {
-        font-size: 16px;
-    }
+  /* responsive for the mav section */
+  .ma-part p {
+    font-size: 16px;
+  }
 
-    /* responsive for the expertise section */
-    .field-title h5
-    {
-        font-size: 33px;
-    }
+  /* responsive for the expertise section */
+  .field-title h5 {
+    font-size: 33px;
+  }
 
-    /* responsive for the team section */
-    .persona-div
-    {
-        width: 74vw;
-    }
+  /* responsive for the team section */
+  .persona-div {
+    width: 74vw;
+  }
 
-    .persona-quote
-    {
-        margin: 0px;
-    }
+  .persona-quote {
+    margin: 0px;
+  }
 
-    .persona-quote p
-    {
-        font-size: 16px;
-    }
+  .persona-quote p {
+    font-size: 16px;
+  }
 
-    /* responsive for the footer */
-    .copyrights p
-    {
-        font-size: 14px;
+  /* responsive for the footer */
+  .copyrights p {
+    font-size: 14px;
 
-        width: 70%;
+    width: 70%;
 
-        text-align: center;
+    text-align: center;
 
-        line-height: 150%;
-    }
+    line-height: 150%;
+  }
 }
 
 /* Mobile Small Breakpoints */
-@media only screen and (max-width:321px)
-{
-    h4
-    {
-        font-size: 30px;
-    }
+@media only screen and (max-width: 321px) {
+  h4 {
+    font-size: 30px;
+  }
 
-    /* responsive for the nav */
-    nav
-    {
-        padding: 0px 4vw;
-    }
+  /* responsive for the nav */
+  nav {
+    padding: 0px 4vw;
+  }
 
-    /* responsive for the banner */
-    .hero-banner h1
-    {
-        font-size: 80px;
-    }
+  /* responsive for the banner */
+  .hero-banner h1 {
+    font-size: 80px;
+  }
 
-    .hero-banner h1 span
-    {
-        font-size: 37px;
-    }
+  .hero-banner h1 span {
+    font-size: 37px;
+  }
 
-    .hero-banner p
-    {
-        text-align: center;
-    }
+  .hero-banner p {
+    text-align: center;
+  }
 
-    .hero-banner a
-    {
-        padding: 18px;
+  .hero-banner a {
+    padding: 18px;
 
-        width: 60%;
-    }
+    width: 60%;
+  }
 
-    /* responsive for the mobile nav bar */
-    .mobile-nav-div
-    {
-        width: 95%;
-    }
+  /* responsive for the mobile nav bar */
+  .mobile-nav-div {
+    width: 95%;
+  }
 
-    .header-text
-    {
-        padding: 0;
-        margin-top: 30px;
-    }
+  .header-text {
+    padding: 0;
+    margin-top: 30px;
+  }
 
-    .header-text p
-    {
-        width: 80%;
+  .header-text p {
+    width: 80%;
 
-        font-size: 16px;
-    }
+    font-size: 16px;
+  }
 
-    /* responsive for the mav part */
-    .mav-section
-    {
-        padding: 0px 4vw;
+  /* responsive for the mav part */
+  .mav-section {
+    padding: 0px 4vw;
 
-        margin-top: 0px;
-    }
+    margin-top: 0px;
+  }
 
-    /* responsive for the expertise section */
-    .field-exp
-    {
-        padding: 0px 4vw;
-    }
+  /* responsive for the expertise section */
+  .field-exp {
+    padding: 0px 4vw;
+  }
 
-    /* responsive for the team section */
-    .persona-name-div
-    {
-        width: 80%;
-    }
+  /* responsive for the team section */
+  .persona-name-div {
+    width: 80%;
+  }
 
-    .persona-quote
-    {
-        margin: 15px 0px;
-    }
+  .persona-quote {
+    margin: 15px 0px;
+  }
 
-    /* responsive for the contact section */
-    .contact-row
-    {
-        padding: 40px 5vw;
-    }
+  /* responsive for the contact section */
+  .contact-row {
+    padding: 40px 5vw;
+  }
 
-    .information-type h6
-    {
-        font-size: 20px;
-    }
+  .information-type h6 {
+    font-size: 20px;
+  }
 
-    .information-type h6 .iconify
-    {
-        display: none;
-    }
+  .information-type h6 .iconify {
+    display: none;
+  }
 }
